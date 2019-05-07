@@ -302,7 +302,7 @@ public interface Food {  
 
 
 
-![1557049310220](E:\jianshu\javaSE\assets\1557049310220.png)
+![1557049310220](https://github.com/lgaBug/JAVASE-GUIDE/blob/master/javaSE/assets/1557049310220.png)
 
 
 
