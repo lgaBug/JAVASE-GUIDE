@@ -1,13 +1,15 @@
+
+# JAVASE-GUIDE
+
+本项目用于记录在java开发中经常遇到的简单问题，然后进行更深入的学习
+
+
+
 # Table of Contents
 
 * [JAVASE-GUIDE](#javase-guide)
   * [javaSE](#javase)
   * [MYSQL](#mysql)
-
-
-# JAVASE-GUIDE
-
-本项目用于记录在java开发中经常遇到的简单问题，然后进行更深入的学习
 
 
 
