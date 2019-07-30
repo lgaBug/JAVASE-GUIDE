@@ -46,6 +46,9 @@ public class Employee {
         this.status = status;
     }
 
+    public Employee() {
+    }
+
     @Override
     public String toString() {
         return "Employee{" +
