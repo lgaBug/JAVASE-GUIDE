@@ -219,5 +219,172 @@ GET employee/developer/_search
 
 精确查询出name为"lga","lga2"的数据
 
+### 结果过滤
+
+_source表示查询后的结果显示的字段。
+
+- includes:来指定想要显示的字段
+- exclude:来指定不想要显示的字段
+
+```http
+GET employee/developer/_search
+{
+  
+  "query": {
+    "terms": {
+      "name": [
+        "lga",
+        "lga2"
+      ]
+    }
+  },
+  "_source": "name"
+  
+}
+```
+
+查询的结果只显示name字段的值，若该属性为数组，则[]
+
+```http
+GET employee/developer/_search
+{
+  
+  "query": {
+    "terms": {
+      "name": [
+        "lga",
+        "lga2"
+      ]
+    }
+  },
+  "_source": {
+    "includes": ["name","age"]
+  }
+  
+}
+```
+
+查询的结果包含name和age属性
+
+### 布尔组合
+
+- must:必须满足
+- must_not:不满足
+- should:或者的关系
+- rang：范围
+- fuzzy:模糊匹配
+
+```http
+GET employee/developer/_search
+{
+  
+  "query": {
+    
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "name": "lga"
+          }
+        }
+      ],
+      "must_not": [
+        {
+          "match": {
+            "age": "22"
+          }
+        }
+      ],
+      "should": [
+        {
+          "match": {
+            "name": "wl"
+          }
+        }
+      ]
+    }
+    
+  }
+}
+```
+
+### 条件过滤
+
+filter加到bool里面
+
+```http
+GET employee/developer/_search
+{
+  
+  "query": {
+    
+    "bool": {
+      "must": [
+            {
+              "match":{
+                "name":"lga"
+              }
+            }
+      ],
+      "filter": {
+        "range": {
+          "age": {
+            "gte":22
+            
+          }
+        }
+      }
+      
+    }
+    
+  }
+}
+```
+
+### 排序
+
+sort排序，和query同级
+
+```http
+GET employee/developer/_search
+{
+  
+  "query": {
+    
+    "bool": {
+      "must": [
+            {
+              "match":{
+                "name":"lga"
+              }
+            }
+      ],
+      "filter": {
+        "range": {
+          "age": {
+            "gte":22
+            
+          }
+        }
+      }
+    }
+    
+  },
+  "sort": [
+    {
+      "age": {
+        "order": "asc"
+      }
+    }
+  ]
+}
+```
+
+
+
+
+
+
+
 
 
