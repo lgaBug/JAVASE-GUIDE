@@ -5,6 +5,9 @@ import com.lga.struts2.service.IUserService;
 import com.lga.struts2.service.UserService;
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
+import org.apache.struts2.convention.annotation.ExceptionMapping;
+import org.apache.struts2.convention.annotation.Result;
+import org.apache.struts2.convention.annotation.Results;
 
 import java.util.List;
 
@@ -41,7 +44,7 @@ public class UserAction extends ActionSupport {
     }
 
     public String search(){
-
+        int i = 3 / 0;
         System.out.println("message = " + message);
         return "input";
     }

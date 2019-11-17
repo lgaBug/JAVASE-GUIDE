@@ -5,13 +5,19 @@
         "http://struts.apache.org/dtds/struts-2.0.dtd">
 
 <struts>
-    
+
     <package name="default" namespace="/" extends="struts-default">
+
+        <global-exception-mappings>
+            <exception-mapping exception="java.lang.Exception" result="error"></exception-mapping>
+        </global-exception-mappings>
+
         <action name="index" class="com.lga.struts2.action.UserAction" method="init">
             <result name="input">/WEB-INF/user/search.jsp</result>
         </action>
         <action name="search" class="com.lga.struts2.action.UserAction" method="search">
             <result name="input">/WEB-INF/user/search.jsp</result>
+            <result name="error">/WEB-INF/error.jsp</result>
         </action>
     </package>
 </struts>
