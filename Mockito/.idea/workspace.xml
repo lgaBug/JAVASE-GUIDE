@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf7ace67-40c0-4b56-9f4a-756791dbdb5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../leetCode-Test/leetcode/editor/cn/com/test/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design_pattern/src/main/java/com/lga/pattern/singlePattern/SingletonPattern01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design_pattern/src/main/java/com/lga/pattern/singlePattern/SingletonPattern02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design_pattern/src/main/java/com/lga/pattern/singlePattern/SingletonPattern03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design_pattern/src/main/java/com/lga/pattern/singlePattern/SingletonPattern04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design_pattern/src/main/java/com/lga/pattern/singlePattern/SingletonPattern05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design_pattern/src/main/java/com/lga/pattern/singlePattern/SingletonPattern06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design_pattern/src/main/java/com/lga/pattern/singlePattern/SingletonPattern07.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design_pattern/src/main/java/com/lga/pattern/singlePattern/SingletonPattern08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisPlus/mybatis-plus-01/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisPlus/mybatis-plus-01/src/main/java/com/lga/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisPlus/mybatis-plus-01/src/test/java/com/lga/LombokTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisPlus/src/test/java/com/lga/mybatisplus001/MyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisPlus/src/test/java/com/lga/mybatisplus001/TestGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2-Test/out/artifacts/struts2_Test_war_exploded/WEB-INF/classes/com/lga/struts2/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2-Test/out/artifacts/struts2_Test_war_exploded/WEB-INF/classes/com/lga/struts2/action/UserAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2-Test/out/artifacts/struts2_Test_war_exploded/WEB-INF/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2-Test/out/artifacts/struts2_Test_war_exploded/WEB-INF/classes/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2-Test/out/artifacts/struts2_Test_war_exploded/WEB-INF/lib/jstl-1.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2-Test/out/artifacts/struts2_Test_war_exploded/WEB-INF/user/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2-Test/out/artifacts/struts2_Test_war_exploded/WEB-INF/user/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2-Test/out/production/struts2-Test/com/lga/struts2/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2-Test/out/production/struts2-Test/com/lga/struts2/action/UserAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2-Test/out/production/struts2-Test/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2-Test/out/production/struts2-Test/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2-Test/src/com/lga/struts2/action/FlagAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2-Test/src/com/lga/struts2/action/FlagAction.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/dev/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\dev\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1V4PSGcZeuuZNz8P1NuSboHEl5v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.splitter.proportion" value="0.27929902" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.lga.mock.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LoginControllerTest.testFail">
+    <configuration name="LoginControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lga.mock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lga.mock" />
+      <option name="MAIN_CLASS_NAME" value="com.lga.mock.LoginControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginControllerTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lga.mock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lga.mock" />
+      <option name="MAIN_CLASS_NAME" value="com.lga.mock.LoginControllerTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginControllerTest.testFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lga.mock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lga.mock" />
+      <option name="MAIN_CLASS_NAME" value="com.lga.mock.LoginControllerTest" />
+      <option name="METHOD_NAME" value="testFail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginControllerTest.testSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lga.mock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lga.mock" />
+      <option name="MAIN_CLASS_NAME" value="com.lga.mock.LoginControllerTest" />
+      <option name="METHOD_NAME" value="testSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LoginControllerTest.testFail" />
+        <item itemvalue="JUnit.LoginControllerTest" />
+        <item itemvalue="JUnit.LoginControllerTest.testSuccess" />
+        <item itemvalue="JUnit.LoginControllerTest.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf7ace67-40c0-4b56-9f4a-756791dbdb5e" name="Default Changelist" comment="" />
+      <created>1576509391492</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576509391492</updated>
+      <workItem from="1576509393007" duration="96000" />
+      <workItem from="1576509502371" duration="3677000" />
+    </task>
+    <task id="LOCAL-00001" summary="Mocktio的基本使用">
+      <created>1576513013405</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576513013405</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Mocktio的基本使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mocktio的基本使用" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="518" y="194" key="#Notifications" timestamp="1576509896137">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="518" y="194" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1576509896137" />
+    <state x="518" y="194" key="#Project_Structure" timestamp="1576509771892">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="518" y="194" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1576509771892" />
+    <state x="365" y="136" width="1240" height="800" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1576512236872">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="365" y="136" width="1240" height="800" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1576512236872" />
+    <state x="731" y="245" key="#com.intellij.ide.util.MemberChooser" timestamp="1576511068796">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="731" y="245" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1576511068796" />
+    <state x="560" y="127" width="1060" height="817" key="CommitChangelistDialog2" timestamp="1576513232073">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="127" width="1060" height="817" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1576513232073" />
+    <state x="703" y="276" key="FileChooserDialogImpl" timestamp="1576509628218">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="703" y="276" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1576509628218" />
+    <state width="1380" height="258" key="GridCell.Tab.0.bottom" timestamp="1576512566257">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1380" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576512566257" />
+    <state width="1380" height="258" key="GridCell.Tab.0.center" timestamp="1576512566256">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1380" height="258" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576512566256" />
+    <state width="1380" height="258" key="GridCell.Tab.0.left" timestamp="1576512566256">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1380" height="258" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576512566256" />
+    <state width="1380" height="258" key="GridCell.Tab.0.right" timestamp="1576512566257">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1380" height="258" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576512566257" />
+    <state width="1380" height="318" key="GridCell.Tab.1.bottom" timestamp="1576512376778">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1380" height="318" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576512376778" />
+    <state width="1380" height="318" key="GridCell.Tab.1.center" timestamp="1576512376778">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1380" height="318" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576512376778" />
+    <state width="1380" height="318" key="GridCell.Tab.1.left" timestamp="1576512376778">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1380" height="318" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576512376778" />
+    <state width="1380" height="318" key="GridCell.Tab.1.right" timestamp="1576512376778">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1380" height="318" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576512376778" />
+    <state x="406" y="110" key="SettingsEditor" timestamp="1576510034395">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="406" y="110" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1576510034395" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1576512511305">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1576512511305" />
+    <state x="577" y="268" key="Vcs.Push.Dialog.v2" timestamp="1576513028020">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="577" y="268" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1576513028020" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/lga/mock/LoginControllerTest.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/lga/mock/service/LoginService.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/lga/mock/controller/LoginController.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
