@@ -65,12 +65,12 @@ public class HelloServiceImplTest {
     @Test(expected = RejectAccessException.class)
     public void printUser06() {
         User user = new User();
-        user.setName("lga");
+        user.setName("lga1");
         user.setAge(22);
         user.setSalary(9500.0f);
         context.checking(new Expectations(){
             {
-                oneOf(userDao).getUser("name");
+                oneOf(userDao).getUser("lga1");
                 will(returnValue(new User()));
             }
         });
@@ -80,12 +80,12 @@ public class HelloServiceImplTest {
     @Test()
     public void printUser07() {
         User user = new User();
-        user.setName("lga");
+        user.setName("lga1");
         user.setAge(22);
         user.setSalary(9500.0f);
         context.checking(new Expectations(){
             {
-                oneOf(userDao).getUser("lga");
+                oneOf(userDao).getUser("lga1");
                 will(returnValue(null));
             }
         });

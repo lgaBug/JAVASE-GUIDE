@@ -8,7 +8,7 @@ import org.apache.commons.lang3.StringUtils;
 
 public class HelloServiceImpl implements HelloService {
 
-    private UserDao userDao;
+    private UserDao userDao = new UserDaoimpl();
 
     public UserDao getUserDao() {
         return userDao;
@@ -47,7 +47,6 @@ public class HelloServiceImpl implements HelloService {
             throw new RejectAccessException("salary 为空");
         }
 
-        userDao = new UserDaoimpl();
         User user1 = userDao.getUser(user.getName());
         if (user1 != null) {
             throw new RejectAccessException("该 name 已经 存在");
