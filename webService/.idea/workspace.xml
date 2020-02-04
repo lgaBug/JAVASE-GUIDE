@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1404bcb5-f270-422b-a3a0-39e806b00763" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ws01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ws01/src/main/java/com/lga/ws/service/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ws01/src/main/java/com/lga/ws/service/HelloServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ws01/src/main/java/com/lga/ws/service/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ws01/src/test/java/com/ws/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ws02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ws03/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ws03/src/main/java/com/lga/ws/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ws03/src/main/java/com/lga/ws/service/HelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JMOCK/src/main/java/com/lga/notification/dao/NotificationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JMOCK/src/main/java/com/lga/notification/dao/NotificationDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JMOCK/src/main/java/com/lga/notification/dao/NotificationDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JMOCK/src/main/java/com/lga/notification/dao/NotificationDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JMOCK/src/main/java/com/lga/notification/pojo/NotificationDetailVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JMOCK/src/main/java/com/lga/notification/pojo/NotificationDetailVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JMOCK/src/main/java/com/lga/notification/service/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JMOCK/src/main/java/com/lga/notification/service/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JMOCK/src/main/java/com/lga/notification/service/NotificationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JMOCK/src/main/java/com/lga/notification/service/NotificationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JMOCK/src/test/java/com/lga/notification/service/NotificationServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JMOCK/src/test/java/com/lga/notification/service/NotificationServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mockito/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mockito/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mockito/src/test/java/com/lga/mock/dao/LoginDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mockito/src/test/java/com/lga/mock/dao/LoginDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mockito/src/test/java/com/lga/mock/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mockito/src/test/java/com/lga/mock/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mockito/src/test/java/com/lga/mock/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mockito/src/test/java/com/lga/mock/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mockito/src/test/java/com/lga/mock/test/LoginControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mockito/src/test/java/com/lga/mock/test/LoginControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mockito/src/test/java/com/lga/mock/test/MockByAnnotationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mockito/src/test/java/com/lga/mock/test/MockByAnnotationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mockito/src/test/java/com/lga/mock/test/MockByRuleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mockito/src/test/java/com/lga/mock/test/MockByRuleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mockito/src/test/java/com/lga/mock/test/MockByRunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mockito/src/test/java/com/lga/mock/test/MockByRunnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mockito/src/test/java/com/lga/mock/test/MockDeepTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mockito/src/test/java/com/lga/mock/test/MockDeepTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mockito/target/test-classes/com/lga/mock/LoginControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mockito/target/test-classes/com/lga/mock/dao/LoginDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Mockito/target/test-classes/com/lga/mock/dao/LoginDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advance/src/main/java/com/lga/juc/juc.uml" beforeDir="false" afterPath="$PROJECT_DIR$/../advance/src/main/java/com/lga/juc/juc.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design_pattern/src/main/java/com/lga/pattern/singlePattern/SingletonPattern01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design_pattern/src/main/java/com/lga/pattern/singlePattern/SingletonPattern02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design_pattern/src/main/java/com/lga/pattern/singlePattern/SingletonPattern03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design_pattern/src/main/java/com/lga/pattern/singlePattern/SingletonPattern04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design_pattern/src/main/java/com/lga/pattern/singlePattern/SingletonPattern05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design_pattern/src/main/java/com/lga/pattern/singlePattern/SingletonPattern06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design_pattern/src/main/java/com/lga/pattern/singlePattern/SingletonPattern07.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design_pattern/src/main/java/com/lga/pattern/singlePattern/SingletonPattern08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaSE/Docker的常用命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/../javaSE/Docker的常用命令.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../juc/src/main/java/org/example/juc/TestVisibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/../juc/src/main/java/org/example/juc/TestVisibility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisPlus/mybatis-plus-01/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisPlus/mybatis-plus-01/src/main/java/com/lga/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisPlus/mybatis-plus-01/src/test/java/com/lga/LombokTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisPlus/src/test/java/com/lga/mybatisplus001/MyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisPlus/src/test/java/com/lga/mybatisplus001/TestGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2-Test/out/artifacts/struts2_Test_war_exploded/WEB-INF/classes/com/lga/struts2/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2-Test/out/artifacts/struts2_Test_war_exploded/WEB-INF/classes/com/lga/struts2/action/UserAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2-Test/out/artifacts/struts2_Test_war_exploded/WEB-INF/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2-Test/out/artifacts/struts2_Test_war_exploded/WEB-INF/classes/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2-Test/out/artifacts/struts2_Test_war_exploded/WEB-INF/lib/jstl-1.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2-Test/out/artifacts/struts2_Test_war_exploded/WEB-INF/user/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2-Test/out/artifacts/struts2_Test_war_exploded/WEB-INF/user/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2-Test/out/production/struts2-Test/com/lga/struts2/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2-Test/out/production/struts2-Test/com/lga/struts2/action/UserAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2-Test/out/production/struts2-Test/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2-Test/out/production/struts2-Test/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../struts2-Test/src/com/lga/struts2/action/FlagAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../struts2-Test/src/com/lga/struts2/action/FlagAction.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/dev/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XI7sKDl4Uxx21lmN9cAeeWYkxT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ws03/src/main/java" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.splitter.proportion" value="0.27929902" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lga.ws.client" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\jianshu\webService\ws03\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lga.ws.client.Client" />
+      <module name="ws03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lga.ws.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ws.server.Server" />
+      <module name="ws01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ws.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1404bcb5-f270-422b-a3a0-39e806b00763" name="Default Changelist" comment="" />
+      <created>1580721959683</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580721959683</updated>
+      <workItem from="1580721961229" duration="6258000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1580722016389">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/-1366.-112.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1580722016389" />
+    <state x="774" y="266" key="#com.intellij.ide.util.MemberChooser" timestamp="1580723858242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="774" y="266" key="#com.intellij.ide.util.MemberChooser/-1366.-112.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1580723858242" />
+    <state x="612" y="482" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1580722762818">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="612" y="482" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/-1366.-112.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1580722762818" />
+    <state x="748" y="436" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1580722688765">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="748" y="436" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/-1366.-112.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1580722688765" />
+    <state x="699" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580727429619">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="699" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1366.-112.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1580727429619" />
+    <state x="846" y="259" width="497" height="597" key="#xdebugger.evaluate" timestamp="1580727633952">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="846" y="259" width="497" height="597" key="#xdebugger.evaluate/-1366.-112.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1580727633952" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1580726869452">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/-1366.-112.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1580726869452" />
+    <state width="1646" height="300" key="GridCell.Tab.0.bottom" timestamp="1580728247682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1646" height="300" key="GridCell.Tab.0.bottom/-1366.-112.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1580728247682" />
+    <state width="1646" height="300" key="GridCell.Tab.0.center" timestamp="1580728247682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1646" height="300" key="GridCell.Tab.0.center/-1366.-112.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1580728247682" />
+    <state width="1646" height="300" key="GridCell.Tab.0.left" timestamp="1580728247682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1646" height="300" key="GridCell.Tab.0.left/-1366.-112.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1580728247682" />
+    <state width="1646" height="300" key="GridCell.Tab.0.right" timestamp="1580728247682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1646" height="300" key="GridCell.Tab.0.right/-1366.-112.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1580728247682" />
+    <state width="1646" height="300" key="GridCell.Tab.1.bottom" timestamp="1580728247682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1646" height="300" key="GridCell.Tab.1.bottom/-1366.-112.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1580728247682" />
+    <state width="1646" height="300" key="GridCell.Tab.1.center" timestamp="1580728247682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1646" height="300" key="GridCell.Tab.1.center/-1366.-112.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1580728247682" />
+    <state width="1646" height="300" key="GridCell.Tab.1.left" timestamp="1580728247682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1646" height="300" key="GridCell.Tab.1.left/-1366.-112.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1580728247682" />
+    <state width="1646" height="300" key="GridCell.Tab.1.right" timestamp="1580728247682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1646" height="300" key="GridCell.Tab.1.right/-1366.-112.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1580728247682" />
+    <state x="470" y="188" key="SettingsEditor" timestamp="1580726885490">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="470" y="188" key="SettingsEditor/-1366.-112.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1580726885490" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1580727668017">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/-1366.-112.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1580727668017" />
+    <state x="492" y="159" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580727154585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="492" y="159" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1366.-112.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1580727154585" />
+    <state x="168" y="176" width="1506" height="755" key="dock-window-1" timestamp="1580723098209">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="168" y="176" width="1506" height="755" key="dock-window-1/-1366.-112.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1580723098209" />
+    <state x="335" y="129" key="new project wizard" timestamp="1580726882365">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="335" y="129" key="new project wizard/-1366.-112.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1580726882365" />
+    <state x="632" y="287" width="672" height="678" key="search.everywhere.popup" timestamp="1580726964486">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="632" y="287" width="672" height="678" key="search.everywhere.popup/-1366.-112.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1580726964486" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ws03/src/main/java/com/lga/ws/client/Client.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
