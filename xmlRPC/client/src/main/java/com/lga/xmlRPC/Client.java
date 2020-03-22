@@ -14,7 +14,7 @@ public class Client {
         try {
 
             XmlRpcClientConfigImpl config = new XmlRpcClientConfigImpl();
-            config.setServerURL(new URL("http://127.0.0.1:8080/tomcat_server_war/service"));
+            config.setServerURL(new URL("http://127.0.0.1:9999/tomcat_server_war/service"));
 
             XmlRpcClient client = new XmlRpcClient();
             client.setConfig(config);
