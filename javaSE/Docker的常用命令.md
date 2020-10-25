@@ -4,6 +4,12 @@
 
 ```sh
 
+#显示docker 版本信息
+docker info
+
+#帮助命令
+docker --help
+
 #启动docker
 systemctl start docker
 
@@ -44,6 +50,10 @@ docker start [-i] (image)
 
 #删除停止的容器
 docker rm （image)
+
+#删除全部容器
+docker rmi -f $(docker images -aq)
+
 ```
 
 ## 守护式容器
