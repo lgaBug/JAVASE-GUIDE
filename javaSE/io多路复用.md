@@ -51,11 +51,11 @@ rset 是一个bitmap数据类型，最多可以存储1024bit
 
 epoll是由三个函数组成，epoll_create、epoll_ctll、epoll_wait
 
-1. epfd放在了用户态和内核态之间，避免了内核态和用户态之间的切换。
+1. epfd放在了用户态和内核态之间，避免了内核态和用户态之间的切换。 
 2. 当有数据时，会对epfd进行置位，并且重排，放到前面，然后返回有数据的fd数量
 3. 遍历有数据的fd，读取数据，执行相应的逻辑
 
-**redis、nginx、javaNio**  在liunx下都用用epoll来实现的
+**redis、nginx、javaNio**  在liunx下都是用epoll来实现的
 
 
 

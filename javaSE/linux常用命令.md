@@ -91,3 +91,41 @@ mv localtime localtime.bak
 ln -s /usr/share/zoneinfo/Asia/Shanghai  /etc/localtime
 
 ```
+
+
+
+## 文件描述符相关
+
+```shell
+#抓取程序有没有发生系统调用
+strace -ff -o ./   java TestSock
+
+#一切进程都是文件
+cd /proc/pid
+#task 下的目录是这个进程下有多少个线程
+#fd 4，5代表一个ipv4,一个ipv6
+#nc 是linux 下的一个小程序，可以和任何人建立tcp连接，发送数据
+
+```
+
+![image-20201105165224600](linux常用命令.assets/image-20201105165224600.png)
+
+服务端正在监听8090端口号
+
+![image-20201105165440336](linux常用命令.assets/image-20201105165440336.png)
+
+使用nc 建立tcp连接
+
+![image-20201105165925518](linux常用命令.assets/image-20201105165925518.png)
+
+多了一个连接
+
+![image-20201105165955902](linux常用命令.assets/image-20201105165955902.png)
+
+文件描述符中也多了一个连接
+
+![image-20201105170058211](linux常用命令.assets/image-20201105170058211.png)
+
+控制台打印了连接的客户端的端口号
+
+![image-20201105170131450](linux常用命令.assets/image-20201105170131450.png)
