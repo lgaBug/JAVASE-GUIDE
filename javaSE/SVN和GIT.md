@@ -119,5 +119,58 @@ GitHub是基于git的一个远程仓库
 
 
 
+## GIT命令总汇
+
+
+
+```powershell
+#查看分支
+git branch  -v
+#查看所有分支
+git branch -a
+#查看提交情况
+git log --oneline --all
+#删除分支
+git branch -D 
+#修改最新commit的注释
+git commit --amend
+#修改之前的注释
+git rebase -i (parentId)
+#多个commit合成一个
+git rebase -i 
+#比较暂存区和HEAD的文件区别
+git diff --cached
+#比较工作区和暂存区的文件区别
+git diff
+#恢复暂存区的文件和HEAD中的文件，让其保持一致
+git reset HEAD 
+#工作区恢复和暂存区一样的
+git checkout 
+#恢复至指定的commit
+git reset --hard 
+#对比不同提交的指定文件的差异
+git diff temp master -- 文件名
+#删除文件
+git rm 文件名
+#保存目前的工作区
+git stash
+#恢复之前保存的工作区
+git stash pop
+
+
+```
+
+
+
+## 公私钥配置
+
+```powershell
+#生成公私钥
+ssh-keygen -t rsa -b 4096 -C "18270234907@163.com"
+#在gitHub上配置ssh公钥就可以免密pull/push
+```
+
+
+
 
 
