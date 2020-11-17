@@ -130,6 +130,12 @@ git branch  -v
 git branch -a
 #查看提交情况
 git log --oneline --all
+#查看远程仓库
+git remote -v
+#本地仓库与远程仓库建立连接
+git remote add 自定义仓库名称 地址
+#fetch远程仓库的内容
+git fetch 自定义仓库名称 master
 #删除分支
 git branch -D 
 #修改最新commit的注释
@@ -172,5 +178,10 @@ ssh-keygen -t rsa -b 4096 -C "18270234907@163.com"
 
 
 
+## 通过GitHub高效搜索
 
+1. 直接通过搜索框搜索的话，是根据**仓库名称**和**描述**来搜的
+2. 通过readme.md来搜索， 关键字  **in:readme**
+   1. 组合搜索 **start:>1000** **language:java** 
+3. 搜文件中带有什么内容， **'  内容 '  filename:文件名**  
 
