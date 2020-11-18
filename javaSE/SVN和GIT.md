@@ -185,3 +185,14 @@ ssh-keygen -t rsa -b 4096 -C "18270234907@163.com"
    1. 组合搜索 **start:>1000** **language:java** 
 3. 搜文件中带有什么内容， **'  内容 '  filename:文件名**  
 
+## 如果选择适合团队的开发流程
+
+1. 主干开发：![image-20201118093459822](SVN和GIT.assets/image-20201118093459822.png)
+2. Git Flow![image-20201118093732676](SVN和GIT.assets/image-20201118093732676.png)
+3. GitHub Flow![image-20201118093827950](SVN和GIT.assets/image-20201118093827950.png)
+4. GitLab Flow![image-20201118094015849](SVN和GIT.assets/image-20201118094015849.png)
+
+
+
+
+
