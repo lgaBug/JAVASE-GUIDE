@@ -60,7 +60,7 @@ public class StreamTest02 {
         boolean flag2 =  userList.stream().noneMatch((user) -> {
             return user.getName().contains("lga1");
         });
-        System.out.println("flag1 = " + flag1);
+        System.out.println("flag2 = " + flag2);
 
         Optional<User> optionalUser = userList.stream().findFirst();
         System.out.println("optionalUser = " + optionalUser);

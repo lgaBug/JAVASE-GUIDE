@@ -37,6 +37,7 @@ public class LambdaDemo01 {
 //        });
         //如果函数体中只有一行。可以省略括号
         lambdaDemo01.printSomething("222222", content -> System.out.println("lanmbda content:" + content));
+        //没有任何参数的时候 ()->{System.out.println("lanmbda content:" + content);}
 
     }
 

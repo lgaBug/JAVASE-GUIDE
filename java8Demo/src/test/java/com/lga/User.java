@@ -1,5 +1,7 @@
 package com.lga;
 
+import java.util.function.Predicate;
+
 public class User {
 
     private String name;
@@ -44,4 +46,6 @@ public class User {
     public void setSalary(Double salary) {
         this.salary = salary;
     }
+
+    public static Predicate<User> ageGreaterThan30AndSalayGraterThan60 = e -> e.getAge() > 30 && e.getSalary() > 60;
 }
