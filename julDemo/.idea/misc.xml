@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="D:/BaiduNetdiskDownload/资料-Java日志/day01资料/代码/代码/jul_demo/pom.xml" />
+        <option value="D:/BaiduNetdiskDownload/资料-Java日志/day01资料/代码/代码/log4j_demo/pom.xml" />
+        <option value="D:/BaiduNetdiskDownload/资料-Java日志/day01资料/代码/代码/jcl_demo/pom.xml" />
+        <option value="D:/BaiduNetdiskDownload/资料-Java日志/day02资料/代码/slf4j_demo/pom.xml" />
+        <option value="D:/BaiduNetdiskDownload/资料-Java日志/day02资料/代码/logback_demo/pom.xml" />
+        <option value="D:/BaiduNetdiskDownload/资料-Java日志/day02资料/代码/log4j2_demo/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
