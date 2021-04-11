@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2021-04-11T11:18:04.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" version="14.5.10" etag="S0-PzEK7ZfhfG_4ehZBm" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VhZc9MwEP41Hp5gfBQnecRp0wKhU2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a43K2m/b4/YcPrx/FKQNPoEAeWGbQZzwzk3bNuybQe/lGZRaLq9bqEIBQu0UaW4Zb+oVppam7OAZg1DCcAlS5tKH5KE+rKhI0LArGk2Bt7cNSUhbSlufcLb2nsWyEjfwu5U+ivKwqjc2XJ7xZOYlMb6JllEApjVVM6F4fQFgCxW8bxPuQpeGZf794t7Ppy4lx8+Zz/JV+/j3fW314WzwSE/WV1B0ET+X9d24XpKeK7jpe8qF2UABeRJQJUT03C8SMYclxYuf1ApFxpwkktAFQgZQQgJ4UOAVNuNIZHazFIyTYJ3CliURxz8SaEaMM71Hihp+y5KmRQwWWGnHKyAUMacjCj3iD8JlwftAweBjxJIqHIVIBn0XarDXVRab8/YagwyyIVPt9jpbJFEhHSbP7ewU+er8VQjd0khplIs0EBQTiSbNslMdE6EK7sKd1xo6A+ggdOiwZDEqcp6oFnySuJqBmKyhRsKl1nEJL1NyTJAMywnTb7UeYBX9UJOskyjuAPkw0CaUiHpfGtYy6euzu2yuGlxVlUKq0z/qFYlzswjAXHWAuI7Fs+XlPyXlHT3TMmyY+3MSU2Wkhh7p6j2dAMskTUTGI8zPNg6dVYb/j2b3rbYdA0tMu3G41nT7ZHI1DmMS9aT55L7hxbhcgyDNxK4CtUq5XkYIlnQXWI4g3btiiAe5dnudtHAWDFoQGLGVbyuKJ9SyXyyoakQzkLc99xHuKnYTB7ckiUhSm4l3S3JivX3iM2m02w2K7nebcwN3aZ7rG7TaWF6g+gV0NkmX+J7Yh3fsddA6D12y+/uU6SfdQl+8I5fVtPdLd/as0xr9phvHPw0CPT0p4DeXjPlyxhwHIbZpzYIlCes8cnL+ag9CYxykSwHAcjlyySwbRKwNzWhB50EykJYA/ULTQlDMM3hKc4B6//8z5zHngPKStGEgKuY2maRYSeGwfos5ljHwwDF6k1tUQqr993OxW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-11T11:50:46.838Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="qzQ--VBHKQKABV3fvqui" version="14.5.10" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2249" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ePvIILvkMxWsoRNyyOhx-0" target="ePvIILvkMxWsoRNyyOhx-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-0" value="JOB 支付异常/溢缴 退款&lt;br&gt;（&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;source sans pro&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;waitRefundJobHandler&lt;/span&gt;）" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="10" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ePvIILvkMxWsoRNyyOhx-1" target="ePvIILvkMxWsoRNyyOhx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-1" value="通过扫描支付主表中need_refund=1的支付主单，创建对应的退款主单refund_statu=1,并设置need_refund=2" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="180" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-4" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="335" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ePvIILvkMxWsoRNyyOhx-7" target="ePvIILvkMxWsoRNyyOhx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-7" value="Api 退款（外部接口，主动退款）" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-240" y="10" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ePvIILvkMxWsoRNyyOhx-9" target="ePvIILvkMxWsoRNyyOhx-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-9" value="/payments/refund&lt;br&gt;创建待退款主单，接口返回退款中状态" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-240" y="180" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-10" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-240" y="335" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ePvIILvkMxWsoRNyyOhx-12" target="ePvIILvkMxWsoRNyyOhx-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-12" value="&lt;font style=&quot;font-size: 12px&quot;&gt;JOB 退款&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;（&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;source sans pro&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;refundJobHandler 调用第三方退款接口&lt;/span&gt;）&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-640" y="540" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ePvIILvkMxWsoRNyyOhx-14" target="ePvIILvkMxWsoRNyyOhx-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-14" value="通过扫描退款主表中的refund_status=1(待退款)主单，执行退款操作，成功后设置refund_status = 2(退款中)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-640" y="710" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-15" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-640" y="865" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ePvIILvkMxWsoRNyyOhx-17" target="ePvIILvkMxWsoRNyyOhx-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-17" value="&lt;font style=&quot;font-size: 12px&quot;&gt;JOB 退款查询&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;（&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;source sans pro&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(249 , 249 , 249)&quot;&gt;refundQueryJobHandler&lt;/span&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;source sans pro&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;调用第三方退款查询接口&lt;/span&gt;）&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-240" y="540" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ePvIILvkMxWsoRNyyOhx-19" target="ePvIILvkMxWsoRNyyOhx-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-19" value="通过扫描退款主表中的refund_status=2(退款中)主单，执行退款查询操作，成功后设置refund_status = 3(退款成功)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-240" y="710" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-20" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-240" y="865" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ePvIILvkMxWsoRNyyOhx-22" target="ePvIILvkMxWsoRNyyOhx-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-22" value="&lt;font style=&quot;font-size: 12px&quot;&gt;JOB 退款报警&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;（&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;source sans pro&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;refundWarnJob&lt;/span&gt;）&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="552.5" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ePvIILvkMxWsoRNyyOhx-24" target="ePvIILvkMxWsoRNyyOhx-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-24" value="通过扫描退款主表中体insert_time &amp;gt;五分钟 &amp;amp;&amp;amp; refund_status=2(退款中)的退款单，进行钉钉和邮箱报警" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="722.5" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-25" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="877.5" width="300" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
