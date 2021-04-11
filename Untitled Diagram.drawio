@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-11T11:50:46.838Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="qzQ--VBHKQKABV3fvqui" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-11T12:03:55.455Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="IsL8JkX_5Q5qGPz9un2v" version="14.5.10" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2249" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,6 +78,49 @@
         </mxCell>
         <mxCell id="ePvIILvkMxWsoRNyyOhx-25" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="877.5" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-38" value="" style="ellipse;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-620" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-39" value="" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;endSize=6;" edge="1" source="ePvIILvkMxWsoRNyyOhx-38" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-605" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-40" value="触发退款" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-600" y="90" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ePvIILvkMxWsoRNyyOhx-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-605" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-41" value="待退款" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-650" y="130" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ePvIILvkMxWsoRNyyOhx-52" target="ePvIILvkMxWsoRNyyOhx-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ePvIILvkMxWsoRNyyOhx-52" target="ePvIILvkMxWsoRNyyOhx-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-52" value="退款中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-650" y="220" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ePvIILvkMxWsoRNyyOhx-54" target="ePvIILvkMxWsoRNyyOhx-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-54" value="退款成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-650" y="310" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ePvIILvkMxWsoRNyyOhx-56" target="ePvIILvkMxWsoRNyyOhx-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-56" value="退款异常(人工退款)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-480" y="220" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ePvIILvkMxWsoRNyyOhx-59" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-450" y="315" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
