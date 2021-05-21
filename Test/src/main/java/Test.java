@@ -1,31 +1,25 @@
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class Test {
 
 
     public static void main(String[] args) {
+        char[]a= {'a','b','c','d','e','f'},
+                b= {'1','2','3','4','5','6'};
+        int []c= {1,2,3,4,5,6},
+                d= {10,20,30,40,50,60};
+        System.arraycopy(a, 0, b, 0, a.length);
+        System.arraycopy(c, 2, d, 2, c.length-3);
+        System.out.println("数组a的各个元素中的值："+Arrays.toString(a));
+        System.out.println("数组b的各个元素中的值：");
+        System.out.println(Arrays.toString(b));
+        System.out.println("数组c的各个元素中的值：");
+        System.out.println(Arrays.toString(c));
+        System.out.println("数组d的各个元素中的值：");
+        System.out.println(Arrays.toString(d));
 
-
-        List<String> list = new ArrayList<>();
-        list.add("1");
-        list.add("2");
-        list.add("3");
-        list.add("4");
-        list.add("5");
-        list.add("6");
-
-        Iterator<String> iterator = list.iterator();
-        while (iterator.hasNext()) {
-
-
-            String val = iterator.next();
-            iterator.remove();
-            System.out.println(val);
-        }
-
-
+        final LinkedList<Object> objects = new LinkedList<>();
     }
+
+
 }

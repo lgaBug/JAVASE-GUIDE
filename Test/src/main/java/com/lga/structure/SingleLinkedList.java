@@ -1,4 +1,4 @@
-import org.w3c.dom.Node;
+package com.lga.structure;
 
 /**
  * @Description :  单链表的实现
