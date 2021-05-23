@@ -8,6 +8,7 @@
     <!-- 指定Mybatis使用log4j -->
     <settings>
         <setting name="logImpl" value="LOG4J"/>
+        <setting name="cacheEnabled" value="true"/>
     </settings>
 
 <!--    <plugins>-->
@@ -30,6 +31,7 @@
     <mappers>
         <mapper resource="userDao-mapping.xml"/>
     </mappers>
+
 
 
 </configuration>
