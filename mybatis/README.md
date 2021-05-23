@@ -3,29 +3,29 @@
 
 ## Mybatis执行过程
 
-![img.png](img.png)
+![img.png](./img/img.png)
 
 ## Executor
 
 ### SimpleExecutor
 >无论SQL是否一样，每次都会进行预编译操作
 
-![img_1.png](img_1.png)
+![img_1.png](./img/img_1.png)
 
 ### RecuseExecutor
 >当SQL语句一样的时候，只会执行一次预编译处理
 > 
-![img_2.png](img_2.png)
+![img_2.png](./img/img_2.png)
 
 ### BatchExecutor   ·   ·
 >当增删改的时候用该执行器，当sql一样时，只会执行一次预编译处理
 > 
-![img_3.png](img_3.png)
+![img_3.png](./img/img_3.png)
 
 ### BaseExecutor
 >一级缓存缓存实现的地方，范围是当前线程
 
-![img_5.png](img_5.png)
+![img_5.png](./img/img_5.png)
 
 
 ### CacheExecutor
