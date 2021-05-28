@@ -87,13 +87,13 @@ public class ExecutorTest {
 
             //更新操作
             MappedStatement updateMs = configuration.getMappedStatement("com.lga.mybatis.dao.UserDao.setName");
-            Map<String,Object> map = new HashMap<>();
+            Map<String,Object> map = new HashMap();
             map.put("arg0", 2);
             map.put("arg1", "wl666666");
             executor.doUpdate(updateMs, map);
 
 
-            Map<String,Object> map2 = new HashMap<>();
+            Map<String,Object> map2 = new HashMap();
             map2.put("arg0", 1);
             map2.put("arg1", "lga111");
             executor.doUpdate(updateMs, map2);
@@ -130,7 +130,6 @@ public class ExecutorTest {
      */
     @Test
     public void cacheExecutorTest() {
-
         Executor executor = new SimpleExecutor(configuration, transaction);
         Executor cachingExecutor = new CachingExecutor(executor);
 

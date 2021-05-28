@@ -12,9 +12,9 @@
         <setting name="defaultExecutorType" value="REUSE"/>
     </settings>
 
-<!--    <plugins>-->
-<!--        <plugin interceptor="com.lga.mybatis.config.QueryInterceptor"></plugin>-->
-<!--    </plugins>-->
+    <plugins>
+        <plugin interceptor="com.lga.mybatis.config.QueryInterceptor"></plugin>
+    </plugins>
 
     <environments default="development">
         <environment id="development">
