@@ -66,3 +66,8 @@
 ![img_11.png](./img/img_11.png)
 
 
+
+
+### 结果集处理
+
+![img_2.png](img_2.png)

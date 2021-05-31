@@ -15,4 +15,6 @@ public interface UserDao {
 
     @Update("update `user` set name = #{arg1} where id = #{arg0}")
     int setName(Integer id, String name);
+
+    User find(int userId);
 }

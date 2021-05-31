@@ -11,6 +11,7 @@ import org.junit.Test;
 
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -149,6 +150,30 @@ public class ExecutorTest {
         SqlSession sqlSession = sqlSessionFactory.openSession();
         List<Object> objects = sqlSession.selectList("com.lga.mybatis.dao.UserDao.findUserById", 2);
         System.out.println("objects.get(0) = " + objects.get(0));
+    }
+
+    @Test
+    public void test1() {
+
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+
+        ArrayList<Object> list = new ArrayList<>();
+//        UserDao userDao = sqlSession.getMapper(UserDao.class);
+//        List<User> allUsers = userDao.findAllUsers();
+        sqlSession.select("com.lga.mybatis.dao.UserDao.findAllUsers", new ResultHandler() {
+            @Override
+            public void handleResult(ResultContext resultContext) {
+                if (resultContext.getResultCount() > 2) {
+                    resultContext.stop();
+                }
+                list.add(resultContext.getResultObject());
+            }
+        });
+
+        System.out.println("list = " + list);
+        
+
+
     }
 
 }
