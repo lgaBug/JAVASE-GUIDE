@@ -8,10 +8,17 @@
     <cache ></cache>
 
     <resultMap id="baseMap" type="com.lga.mybatis.vo.User">
-        <id column="id" property="u1.id"></id>
-        <result column="name" property="u1.name"></result>
-        <result column="password" property="u1.password"></result>
-        <result column="age" property="u1.age"></result>
+        <id column="id" property="id"></id>
+        <result column="name" property="name"></result>
+        <result column="password" property="password"></result>
+        <result column="age" property="age"></result>
+        <association property="score" resultMap="baseScore"></association>
+    </resultMap>
+
+    <resultMap id="baseScore" type="com.lga.mybatis.vo.Score">
+        <result column="id" property="id"></result>
+        <result column="math" property="math"></result>
+        <result column="english" property="english"></result>
     </resultMap>
 
     <select id="findUserById" resultType="com.lga.mybatis.vo.User">
