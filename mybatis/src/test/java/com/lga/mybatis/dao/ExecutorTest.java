@@ -1,5 +1,6 @@
 package com.lga.mybatis.dao;
 
+import com.lga.mybatis.vo.User;
 import org.apache.ibatis.executor.*;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.mapping.MappedStatement;
@@ -148,6 +149,16 @@ public class ExecutorTest {
         SqlSession sqlSession = sqlSessionFactory.openSession();
         List<Object> objects = sqlSession.selectList("com.lga.mybatis.dao.UserDao.findUserById", 2);
         System.out.println("objects.get(0) = " + objects.get(0));
+    }
+
+
+    @Test
+    public void test() {
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        final UserDao userDaoMapper = sqlSession.getMapper(UserDao.class);
+        final User user = userDaoMapper.get(1,"lga");
+        System.out.println("user = " + user);
+
     }
 
 }

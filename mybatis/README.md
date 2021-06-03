@@ -66,4 +66,6 @@
 ![img_11.png](./img/img_11.png)
 
 
+## MyBatis映射体系
+![img_2.png](img_2.png)
 

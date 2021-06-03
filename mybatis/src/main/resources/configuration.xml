@@ -12,6 +12,11 @@
         <setting name="defaultExecutorType" value="REUSE"/>
     </settings>
 
+
+    <typeAliases>
+        <package name="com.lga.mybatis.vo"/>
+    </typeAliases>
+
     <plugins>
         <plugin interceptor="com.lga.mybatis.config.QueryInterceptor"></plugin>
     </plugins>
@@ -31,7 +36,10 @@
     <!-- 映射文件，mybatis精髓， 后面才会细讲 -->
     <mappers>
         <mapper resource="userDao-mapping.xml"/>
+        <mapper resource="BlogMapper.xml"/>
+
     </mappers>
+
 
 
 

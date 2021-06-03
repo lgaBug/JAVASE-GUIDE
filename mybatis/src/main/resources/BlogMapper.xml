@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lga.mybatis.dao.BlogDao">
+
+    <resultMap id="blogMap" type="blog" autoMapping="true">
+        <result column="title" property="title"></result>
+        <collection column="id" property="comments" select="selectCommentsByBlogId"></collection>
+    </resultMap>
+
+    <resultMap id="CommentMap" type="comment" autoMapping="true">
+        <association property="blog" column="blog_id" select="selectBlogByBlogId" fetchType="eager"/>
+    </resultMap>
+
+
+    <select id="selectBlogByBlogId" resultMap="blogMap">
+        select * from blog where id = #{id}
+    </select>
+
+    <select id="selectCommentsByBlogId" resultMap="CommentMap">
+        select * from comment where blog_id = #{id}
+    </select>
+
+</mapper>

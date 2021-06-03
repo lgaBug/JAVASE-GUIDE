@@ -34,7 +34,6 @@ public class JDBC {
                 int id = rs.getInt("id");
                 String name = rs.getString("name");
 
-                // 输出数据in
                 System.out.print("ID: " + id);
                 System.out.print("name: " + name);
                 System.out.println();
