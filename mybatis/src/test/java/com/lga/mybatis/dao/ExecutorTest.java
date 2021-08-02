@@ -41,13 +41,12 @@ public class ExecutorTest {
     @Test
     public void simpleExecutorTest() {
 
-        SimpleExecutor executor = new SimpleExecutor(configuration, transaction);
+        Executor executor = new SimpleExecutor(configuration, transaction);
         MappedStatement ms = configuration.getMappedStatement("com.lga.mybatis.dao.UserDao.findUserById");
 
         try {
-            List<Object> doQuery = executor.doQuery(ms, 2, RowBounds.DEFAULT, SimpleExecutor.NO_RESULT_HANDLER, ms.getBoundSql(2));
-            executor.doQuery(ms, 2, RowBounds.DEFAULT, SimpleExecutor.NO_RESULT_HANDLER, ms.getBoundSql(2));
-            System.out.println(doQuery.get(0));
+            executor.query(ms, 2, RowBounds.DEFAULT, SimpleExecutor.NO_RESULT_HANDLER);
+            executor.query(ms, 2, RowBounds.DEFAULT, SimpleExecutor.NO_RESULT_HANDLER);
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
@@ -64,15 +63,12 @@ public class ExecutorTest {
         MappedStatement ms = configuration.getMappedStatement("com.lga.mybatis.dao.UserDao.findUserById");
 
         try {
-            List<Object> doQuery = executor.doQuery(ms, 2, RowBounds.DEFAULT, SimpleExecutor.NO_RESULT_HANDLER, ms.getBoundSql(2));
             executor.doQuery(ms, 2, RowBounds.DEFAULT, SimpleExecutor.NO_RESULT_HANDLER, ms.getBoundSql(2));
-            executor.doQuery(ms, 1, RowBounds.DEFAULT, SimpleExecutor.NO_RESULT_HANDLER, ms.getBoundSql(1));
-            System.out.println(doQuery.get(0));
+            executor.doQuery(ms, 2, RowBounds.DEFAULT, SimpleExecutor.NO_RESULT_HANDLER, ms.getBoundSql(2));
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
     }
-
 
 
     /**
@@ -88,13 +84,13 @@ public class ExecutorTest {
 
             //更新操作
             MappedStatement updateMs = configuration.getMappedStatement("com.lga.mybatis.dao.UserDao.setName");
-            Map<String,Object> map = new HashMap();
+            Map<String, Object> map = new HashMap();
             map.put("arg0", 2);
             map.put("arg1", "wl666666");
             executor.doUpdate(updateMs, map);
 
 
-            Map<String,Object> map2 = new HashMap();
+            Map<String, Object> map2 = new HashMap();
             map2.put("arg0", 1);
             map2.put("arg1", "lga111");
             executor.doUpdate(updateMs, map2);
@@ -116,9 +112,8 @@ public class ExecutorTest {
         Executor executor = new SimpleExecutor(configuration, transaction);
         MappedStatement ms = configuration.getMappedStatement("com.lga.mybatis.dao.UserDao.findUserById");
         try {
-            List<Object> doQuery = executor.query(ms, 2, RowBounds.DEFAULT, SimpleExecutor.NO_RESULT_HANDLER);
             executor.query(ms, 2, RowBounds.DEFAULT, SimpleExecutor.NO_RESULT_HANDLER);
-            System.out.println(doQuery.get(0));
+            executor.query(ms, 4, RowBounds.DEFAULT, SimpleExecutor.NO_RESULT_HANDLER);
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
@@ -139,13 +134,14 @@ public class ExecutorTest {
             cachingExecutor.query(ms, 2, RowBounds.DEFAULT, SimpleExecutor.NO_RESULT_HANDLER);
             cachingExecutor.commit(true);
             cachingExecutor.query(ms, 2, RowBounds.DEFAULT, SimpleExecutor.NO_RESULT_HANDLER);
+            cachingExecutor.query(ms, 2, RowBounds.DEFAULT, SimpleExecutor.NO_RESULT_HANDLER);
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
     }
 
     @Test
-    public void sqlSession() {
+    public void sqlSessionTest() {
         SqlSession sqlSession = sqlSessionFactory.openSession();
         List<Object> objects = sqlSession.selectList("com.lga.mybatis.dao.UserDao.findUserById", 2);
         System.out.println("objects.get(0) = " + objects.get(0));
@@ -156,7 +152,7 @@ public class ExecutorTest {
     public void test() {
         SqlSession sqlSession = sqlSessionFactory.openSession();
         final UserDao userDaoMapper = sqlSession.getMapper(UserDao.class);
-        final User user = userDaoMapper.get(1,"lga");
+        final User user = userDaoMapper.get(1, "lga");
         System.out.println("user = " + user);
 
     }

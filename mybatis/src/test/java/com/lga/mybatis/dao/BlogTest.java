@@ -39,4 +39,13 @@ public class BlogTest {
         Object blog = sqlSession.selectOne("com.lga.mybatis.dao.BlogDao.selectBlogByBlogId", 1);
         System.out.println(blog);
     }
+
+    @Test
+    public void testCache() {
+
+
+
+    }
+
+
 }

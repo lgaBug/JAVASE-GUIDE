@@ -40,8 +40,7 @@ public class FirstCacheTest {
 
         UserDao userDao = sqlSession.getMapper(UserDao.class);
         User user1 = userDao.findUserById(1);
-        sqlSession.clearCache();
-        User user2 = userDao.findUserById(1);
+        User user2 = userDao.findUserById01(1);
 
         System.out.println(user1 == user2);
 

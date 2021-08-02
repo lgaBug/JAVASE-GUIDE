@@ -17,9 +17,9 @@
         <package name="com.lga.mybatis.vo"/>
     </typeAliases>
 
-    <plugins>
-        <plugin interceptor="com.lga.mybatis.config.QueryInterceptor"></plugin>
-    </plugins>
+<!--    <plugins>-->
+<!--&lt;!&ndash;        <plugin interceptor="com.lga.mybatis.config.QueryInterceptor"></plugin>&ndash;&gt;-->
+<!--    </plugins>-->
 
     <environments default="development">
         <environment id="development">

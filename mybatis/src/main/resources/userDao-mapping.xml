@@ -3,8 +3,7 @@
 
 <mapper namespace="com.lga.mybatis.dao.UserDao" >
 
-    <cache></cache>
-
+    <cache/>
     <select id="findUserById" resultType="User">
         select * from user where id = #{id}
     </select>

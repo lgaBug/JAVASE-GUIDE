@@ -12,6 +12,10 @@ public interface UserDao {
 
     User findUserById(int userId);
 
+    @Select("select * from user where id = #{arg0}")
+    User findUserById01(int userId);
+
+
     List<User> findAllUsers();
 
     @Update("update `user` set name = #{arg1} where id = #{arg0}")
@@ -21,4 +25,5 @@ public interface UserDao {
     @Select("select * from `user` t where t.id = #{arg0} and t.name = #{arg1}")
     User get(int id,String name);
 
+    User find(int i);
 }
