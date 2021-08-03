@@ -7,7 +7,6 @@ import org.apache.ibatis.annotations.Update;
 
 import java.util.List;
 
-@CacheNamespace
 public interface UserDao {
 
     void insert(User user);

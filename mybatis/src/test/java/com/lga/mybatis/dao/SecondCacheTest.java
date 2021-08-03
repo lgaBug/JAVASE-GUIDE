@@ -62,4 +62,26 @@ public class SecondCacheTest {
     }
 
 
+    @Test
+    public void tcmTest() {
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
+
+        UserDao userDao = sqlSession.getMapper(UserDao.class);
+        userDao.findUserById(2);
+        mapper.findUserById01(2);
+        mapper.findUserById01(2);
+        sqlSession.commit();
+
+        SqlSession sqlSession1 = sqlSessionFactory.openSession();
+
+        UserDao userDao1 = sqlSession1.getMapper(UserDao.class);
+        userDao1.findUserById(2);
+        System.out.println("sqlSession1 = " + sqlSession1);
+
+
+    }
+
+
+
 }

@@ -4,7 +4,7 @@
 <mapper namespace="com.lga.mybatis.dao.UserDao" >
 
     <cache/>
-    <select id="findUserById" resultType="User">
+    <select id="findUserById" resultType="com.lga.mybatis.vo.User">
         select * from user where id = #{id}
     </select>
 
