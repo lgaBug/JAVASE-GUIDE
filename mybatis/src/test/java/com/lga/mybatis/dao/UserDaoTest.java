@@ -41,8 +41,6 @@ public class UserDaoTest {
 
         SqlSession sqlSession = getSessionFactory().openSession();
         UserDao mapper = sqlSession.getMapper(UserDao.class);
-        User user = mapper.find(1);
-        System.out.println("user = " + user);
     }
 
 }
