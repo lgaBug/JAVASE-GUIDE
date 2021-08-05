@@ -5,7 +5,7 @@
 
     <cache/>
     <select id="findUserById" resultType="User">
-        select * from user where id = #{id}
+        select * from user where id = #{userId}
     </select>
 
 </mapper>
