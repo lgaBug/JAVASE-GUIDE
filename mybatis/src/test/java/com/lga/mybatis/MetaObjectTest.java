@@ -22,4 +22,24 @@ public class MetaObjectTest {
         System.out.println(metaObject.findProperty("name", false));
 
     }
+
+    @Test
+    public void test2() {
+
+        Object user = new User();
+
+        Configuration configuration = new Configuration();
+        MetaObject metaObject = configuration.newMetaObject(user);
+
+        metaObject.setValue("id", 1);
+        metaObject.setValue("name","liugaoan");
+        metaObject.setValue("score.math",100L);
+
+
+
+
+        System.out.println(user);
+
+
+    }
 }

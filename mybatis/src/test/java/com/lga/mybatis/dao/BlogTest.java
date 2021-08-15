@@ -1,5 +1,6 @@
 package com.lga.mybatis.dao;
 
+import com.lga.mybatis.vo.Blog;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.Configuration;
 import org.apache.ibatis.session.SqlSession;
@@ -36,8 +37,10 @@ public class BlogTest {
     @Test
     public void test() {
         final SqlSession sqlSession = sqlSessionFactory.openSession();
-        Object blog = sqlSession.selectOne("com.lga.mybatis.dao.BlogDao.selectBlogByBlogId", 1);
-        System.out.println(blog);
+        Blog blog = sqlSession.selectOne("com.lga.mybatis.dao.BlogDao.selectBlogByBlogId", 1);
+
+        System.out.println("blog = " + blog);
+
     }
 
     @Test

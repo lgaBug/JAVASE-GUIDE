@@ -1,7 +1,6 @@
 package com.lga.mybatis.dao;
 
 import com.lga.mybatis.vo.User;
-import org.apache.ibatis.annotations.CacheNamespace;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
@@ -25,6 +24,6 @@ public interface UserDao {
 
 
     @Select("select * from `user` t where t.id = #{id} and t.name = #{name}")
-    User get(int id, String name);
+    User get(@Param("id") int id, @Param("name") String name);
 
 }

@@ -9,8 +9,8 @@
         <collection column="id" property="comments" select="selectCommentsByBlogId"></collection>
     </resultMap>
 
-    <resultMap id="CommentMap" type="comment" autoMapping="true">
-        <association property="blog" column="blog_id" select="selectBlogByBlogId" fetchType="eager"/>
+    <resultMap id="CommentMap" type="comment">
+        <association property="blog" column="blog_id" select="selectBlogByBlogId"/>
     </resultMap>
 
 
