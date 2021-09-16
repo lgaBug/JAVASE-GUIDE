@@ -1,4 +1,4 @@
-package org.com.msb.io;
+package com.lga.io.masibing;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -12,7 +12,7 @@ import java.util.Set;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import static org.com.msb.io.Utils.*;
+import static com.lga.io.masibing.Utils.*;
 
 /**
  * @author hj

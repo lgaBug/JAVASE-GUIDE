@@ -1,4 +1,4 @@
-package org.com.msb.io;
+package com.lga.io.masibing;
 
 import java.io.*;
 import java.util.concurrent.SynchronousQueue;

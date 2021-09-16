@@ -1,4 +1,4 @@
-package org.com.msb.io;
+package com.lga.io.masibing;
 
 import java.io.BufferedWriter;
 import java.io.OutputStream;
@@ -6,7 +6,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.concurrent.ThreadPoolExecutor;
 
-import static org.com.msb.io.Utils.*;
+import static com.lga.io.masibing.Utils.*;
 
 /**
  * @author hj

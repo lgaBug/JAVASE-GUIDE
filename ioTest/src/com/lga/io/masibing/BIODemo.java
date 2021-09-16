@@ -1,10 +1,10 @@
-package org.com.msb.io;
+package com.lga.io.masibing;
 
 import java.io.BufferedWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-import static org.com.msb.io.Utils.*;
+import static com.lga.io.masibing.Utils.*;
 
 // BIO: Block IO 。压测结果为：QPS 2.0。1S等于500ms+500ms,而我们每500ms响应一个请求，所以我们的理论QPS：1+1 = 2.0
 public class BIODemo {

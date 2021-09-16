@@ -1,4 +1,4 @@
-package com.lga.io;
+package com.lga.io.masibing;
 
 import java.io.IOException;
 import java.net.InetAddress;

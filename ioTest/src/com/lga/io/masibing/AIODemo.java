@@ -1,4 +1,4 @@
-package org.com.msb.io;
+package com.lga.io.masibing;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -9,7 +9,7 @@ import java.nio.channels.CompletionHandler;
 import java.nio.charset.StandardCharsets;
 import java.util.concurrent.CountDownLatch;
 
-import static org.com.msb.io.Utils.*;
+import static com.lga.io.masibing.Utils.*;
 
 /**
  * @author hj

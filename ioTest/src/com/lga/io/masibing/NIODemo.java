@@ -1,11 +1,11 @@
-package org.com.msb.io;
+package com.lga.io.masibing;
 
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 
-import static org.com.msb.io.Utils.*;
+import static com.lga.io.masibing.Utils.*;
 
 /**
  * @author hj

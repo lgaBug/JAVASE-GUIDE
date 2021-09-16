@@ -1,4 +1,4 @@
-package org.com.msb.io;
+package com.lga.io.masibing;
 
 import java.io.File;
 import java.io.FileInputStream;
