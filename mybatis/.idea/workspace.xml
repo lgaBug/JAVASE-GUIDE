@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e90d389c-6afd-4ef0-b23d-f25361cf6bee" name="Default Changelist" comment="参数解析器学习">
-      <change beforePath="$PROJECT_DIR$/../redisTest/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../redisTest/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_source/src/main/java/springboot_source/demo/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaSE/面经.md" beforeDir="false" afterPath="$PROJECT_DIR$/../javaSE/面经.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ssm.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/ssm.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lga/mybatis/dao/UserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BlogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BlogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lga/mybatis/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lga/mybatis/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lga/mybatis/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lga/mybatis/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lga/mybatis/vo/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lga/mybatis/vo/Blog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lga/mybatis/vo/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lga/mybatis/vo/Comment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lga/mybatis/vo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lga/mybatis/vo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lga/mybatis/MetaObjectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lga/mybatis/MetaObjectTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lga/mybatis/dao/BlogTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lga/mybatis/dao/BlogTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lga/mybatis/dao/FirstCacheTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lga/mybatis/dao/FirstCacheTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lga/mybatis/dao/SecondCacheTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lga/mybatis/dao/SecondCacheTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +35,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -47,11 +68,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/lga/mybatis/dao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -70,8 +91,21 @@
       <recent name="com.lga.mybatis.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SecondCacheTest.cacheTest">
-    <configuration name="ExecutorTest.cacheExecutorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserDaoTest.testFindAllUsers">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecutorTest.simpleExecutorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis" />
       <extension name="coverage">
         <pattern>
@@ -81,23 +115,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.lga.mybatis.dao" />
       <option name="MAIN_CLASS_NAME" value="com.lga.mybatis.dao.ExecutorTest" />
-      <option name="METHOD_NAME" value="cacheExecutorTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstCacheTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lga.mybatis.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lga.mybatis.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.lga.mybatis.dao.FirstCacheTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="METHOD_NAME" value="simpleExecutorTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,13 +169,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserDaoTest.testFindAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lga.mybatis.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lga.mybatis.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.lga.mybatis.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="testFindAllUsers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserDaoTest.testFindAllUsers" />
+        <item itemvalue="JUnit.ExecutorTest.simpleExecutorTest" />
         <item itemvalue="JUnit.SecondCacheTest.cacheTest" />
         <item itemvalue="JUnit.ParamTest.test1" />
         <item itemvalue="JUnit.SecondCacheTest.test1" />
-        <item itemvalue="JUnit.FirstCacheTest.test1" />
-        <item itemvalue="JUnit.ExecutorTest.cacheExecutorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +228,8 @@
       <workItem from="1629195586264" duration="2207000" />
       <workItem from="1629427580491" duration="9918000" />
       <workItem from="1630317333783" duration="54000" />
+      <workItem from="1635648297092" duration="791000" />
+      <workItem from="1635649434545" duration="11633000" />
     </task>
     <task id="LOCAL-00001" summary="Mybatis源码学习">
       <created>1621589132392</created>
@@ -349,12 +385,67 @@
           <line>62</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.3/mybatis-3.5.3-sources.jar!/org/apache/ibatis/builder/xml/XMLConfigBuilder.java</url>
+          <line>381</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.3/mybatis-3.5.3-sources.jar!/org/apache/ibatis/builder/xml/XMLMapperBuilder.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/lga/mybatis/dao/UserDaoTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/lga/mybatis/dao/UserDaoTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.3/mybatis-3.5.3-sources.jar!/org/apache/ibatis/binding/MapperRegistry.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.3/mybatis-3.5.3-sources.jar!/org/apache/ibatis/binding/MapperProxy.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/lga/mybatis/dao/UserDaoTest.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.3/mybatis-3.5.3-sources.jar!/org/apache/ibatis/binding/MapperMethod.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.3/mybatis-3.5.3-sources.jar!/org/apache/ibatis/binding/MapperMethod.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.3/mybatis-3.5.3-sources.jar!/org/apache/ibatis/binding/MapperRegistry.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
-        <watch expression="boundSql" language="JAVA" />
+        <watch expression="sqlSession.getConfiguration().mappedStatements" language="JAVA" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mybatis$UserDaoTest_testFindAllUsers.ic" NAME="UserDaoTest.testFindAllUsers Coverage Results" MODIFIED="1635659226300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.lga.mybatis.dao.*</FILTER>
+    </SUITE>
   </component>
 </project>

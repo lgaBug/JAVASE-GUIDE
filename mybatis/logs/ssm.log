@@ -512,3 +512,30 @@
 [DEBUG] [2021-08-05 21:02:15][com.lga.mybatis.dao.UserDao.get]<==      Total: 1
 [DEBUG] [2021-08-20 15:53:41][com.lga.mybatis.dao.UserDao]Cache Hit Ratio [com.lga.mybatis.dao.UserDao]: 1.0
 [DEBUG] [2021-08-20 16:00:01][com.lga.mybatis.dao.UserDao]Cache Hit Ratio [com.lga.mybatis.dao.UserDao]: 1.0
+[DEBUG] [2021-10-31 12:48:24][com.lga.mybatis.dao.UserDao.findUserById]==>  Preparing: select * from user where id = ? 
+[DEBUG] [2021-10-31 12:48:25][com.lga.mybatis.dao.UserDao.findUserById]==> Parameters: 2(Integer)
+[DEBUG] [2021-10-31 12:48:25][com.lga.mybatis.dao.UserDao.findUserById]<==      Total: 1
+[DEBUG] [2021-10-31 12:53:38][com.lga.mybatis.dao.UserDao.findUserById]==>  Preparing: select * from user where id = ? 
+[DEBUG] [2021-10-31 12:53:38][com.lga.mybatis.dao.UserDao.findUserById]==> Parameters: 2(Integer)
+[DEBUG] [2021-10-31 12:53:38][com.lga.mybatis.dao.UserDao.findUserById]<==      Total: 1
+[DEBUG] [2021-10-31 12:56:35][com.lga.mybatis.dao.UserDao.findUserById]==>  Preparing: select * from user where id = ? 
+[DEBUG] [2021-10-31 13:04:17][com.lga.mybatis.dao.UserDao.findUserById]==>  Preparing: select * from user where id = ? 
+[DEBUG] [2021-10-31 13:04:17][com.lga.mybatis.dao.UserDao.findUserById]==> Parameters: 2(Integer)
+[DEBUG] [2021-10-31 13:04:17][com.lga.mybatis.dao.UserDao.findUserById]<==      Total: 1
+[DEBUG] [2021-10-31 13:45:41][com.lga.mybatis.dao.UserDao]Cache Hit Ratio [com.lga.mybatis.dao.UserDao]: 0.0
+[DEBUG] [2021-10-31 13:45:43][com.lga.mybatis.dao.UserDao.findUserById]==>  Preparing: select * from user where id = ? 
+[DEBUG] [2021-10-31 13:45:43][com.lga.mybatis.dao.UserDao.findUserById]==> Parameters: 1(Integer)
+[DEBUG] [2021-10-31 13:45:43][com.lga.mybatis.dao.UserDao.findUserById]<==      Total: 1
+[DEBUG] [2021-10-31 13:47:08][com.lga.mybatis.dao.UserDao]Cache Hit Ratio [com.lga.mybatis.dao.UserDao]: 0.0
+[DEBUG] [2021-10-31 13:47:42][com.lga.mybatis.dao.UserDao]Cache Hit Ratio [com.lga.mybatis.dao.UserDao]: 0.0
+[DEBUG] [2021-10-31 13:47:44][com.lga.mybatis.dao.UserDao.findUserById]==>  Preparing: select * from user where id = ? 
+[DEBUG] [2021-10-31 13:47:44][com.lga.mybatis.dao.UserDao.findUserById]==> Parameters: 1(Integer)
+[DEBUG] [2021-10-31 13:47:44][com.lga.mybatis.dao.UserDao.findUserById]<==      Total: 1
+[DEBUG] [2021-10-31 13:48:10][com.lga.mybatis.dao.UserDao]Cache Hit Ratio [com.lga.mybatis.dao.UserDao]: 0.0
+[DEBUG] [2021-10-31 13:48:12][com.lga.mybatis.dao.UserDao.findUserById]==>  Preparing: select * from user where id = ? 
+[DEBUG] [2021-10-31 13:48:12][com.lga.mybatis.dao.UserDao.findUserById]==> Parameters: 1(Integer)
+[DEBUG] [2021-10-31 13:48:12][com.lga.mybatis.dao.UserDao.findUserById]<==      Total: 1
+[DEBUG] [2021-10-31 14:03:01][com.lga.mybatis.dao.UserDao]Cache Hit Ratio [com.lga.mybatis.dao.UserDao]: 0.0
+[DEBUG] [2021-10-31 14:03:02][com.lga.mybatis.dao.UserDao.findUserById]==>  Preparing: select * from user where id = ? 
+[DEBUG] [2021-10-31 14:03:02][com.lga.mybatis.dao.UserDao.findUserById]==> Parameters: 1(Integer)
+[DEBUG] [2021-10-31 14:03:02][com.lga.mybatis.dao.UserDao.findUserById]<==      Total: 1
